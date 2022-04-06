@@ -1,0 +1,23 @@
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.serviceImage {
+  width: 50vw;
+}
+
+.serviceIntroductionWrap {
+  position: relative;
+}
+
+.serviceIntroduction {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 350px;
+  background: rgba(255, 255, 255, 0.87);
+}

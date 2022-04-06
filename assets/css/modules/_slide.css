@@ -1,0 +1,21 @@
+@media screen and (min-width: 960px) {
+   .c-slide .slick-slide {
+      margin: 4px 4px;
+   }
+}
+
+@media screen and (max-width: 959px) {
+   .c-slide .slick-slide {
+      margin: 0 4px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .c-slide .slick-slide {
+      margin: 0 4px;
+   }
+}
+
+.c-slide {
+   display: flex;
+ }

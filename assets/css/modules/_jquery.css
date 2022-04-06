@@ -1,0 +1,29 @@
+._scrollSlideUp {
+  transform: translate(0, 3rem);
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+._isActiveSlideUp {
+  transform: translate(0, 0);
+}
+
+._scrollSlideDown {
+  transform: translate(0, -3rem);
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+._isActiveSlideDown {
+  transform: translate(0, 0);
+}
+
+._scrollFadeIn {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+._isActiveFadeIn {
+  opacity: 1;
+}

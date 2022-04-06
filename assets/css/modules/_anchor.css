@@ -1,0 +1,20 @@
+.c-anchor{
+	display: inline-block;
+	position: relative;
+	color: #fff;
+ 	text-decoration: none;
+}
+.c-anchor:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	transform: scale(0, 1);
+	transition: 0.2s;
+}
+.c-anchor:hover:before {
+	transform: scale(1);
+}

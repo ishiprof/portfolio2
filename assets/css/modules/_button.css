@@ -1,0 +1,53 @@
+@media screen and (min-width: 960px) {
+  .c-button{
+    display: inline-block;
+    width: 500px;
+    padding: 1em 3em;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border: 3px solid #000;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .c-button:hover{
+      color: #fff;
+  }
+  .c-button::before{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: -1%;
+    left: -1%;
+    width: 102%;
+    height: 102%;
+    background-color: #000;
+    transition: transform .3s; 
+    transform-origin: right top;
+    transform: scale(1, 0);
+  }
+  .c-button:hover::before{
+    transform-origin: right bottom;
+    transform: scale(1, 1);
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .c-button {
+    display: inline-block;
+    width: calc(100vw - calc(100vw - 100%));
+    padding: 1.3em 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .c-button:hover {
+    opacity: 0.7;
+  }
+}

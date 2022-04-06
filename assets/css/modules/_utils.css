@@ -1,0 +1,39 @@
+.mb-120 {
+  margin-bottom: 120px;
+}
+
+.mb-56 {
+  margin-bottom: 56px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+.pb-56 {
+  padding-bottom: 56px;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+
+.left-40vw {
+  left: 40vw;
+}
+
+.right-40vw {
+  right: 40vw;
+}
+
+.transition-delay-500 {
+  transition-delay: 500ms;
+}

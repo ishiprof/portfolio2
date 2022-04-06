@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/slick.css"/>
+  <link rel="stylesheet" href="./assets/css/slick-theme.css"/>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+<div class="l-wrapper">
+
+<!-- 普通のheader要素 -->
+  <header class="l-header down">
+
+    <div class="l-sp__header">
+      <button id="btn" class="l-sp__header-menu">
+        <span class="l-sp__header-hamburger"></span>
+        <span class="l-sp__header-hamburger"></span>
+        <span class="l-sp__header-hamburger"></span>
+      </button>
+    </div>
+
+    <p class="l-header__title">Portfolio</p>
+    <ul class="l-header__menu">
+      <li class="l-header__list"><a href="" class="c-anchor">FEATURES</a></li>
+      <li class="l-header__list"><a href="" class="c-anchor">NEWS</a></li>
+      <li class="l-header__list"><a href="" class="c-anchor">ONLINE SHOP</a></li>
+    </ul>
+  </header>
+  <div class="l-header__cover"></div>
+
+<!-- メインコンテンツ2つ,SNSサンプル1つ,サブコンテンツ1つ を含んだmain要素 -->
+  <main class="l-main">
+
+<!-- header直後にあるスライドで切り替わる大きめなimage要素 一番初めに目に付くimage要素 -->
+  <div class="l-main__hero">
+    <ul class="c-slide">
+      <li class="l-main__hero-image"><img src="./assets/images/denimjacket.jpg" alt=""></li>
+      <li class="l-main__hero-image"><img src="./assets/images/lookbook.jpg" alt=""></li>
+      <li class="l-main__hero-image"><img src="./assets/images/style.jpg" alt=""></li>
+      <li class="l-main__hero-image"><img src="./assets/images/hoodie.jpg" alt=""></li>
+      <li class="l-main__hero-image"><img src="./assets/images/sweater.jpg" alt=""></li>
+      <li class="l-main__hero-image"><img src="./assets/images/style2.jpg" alt=""></li>
+    </ul>
+  </div>
+
+    <div class="l-main__contents">
+
+<!--  hero要素を除いたら一番メインになる要素 -->
+      <div class="p-features pb-120 pt-120">
+        <div class="p-features__container">
+          <p class="p-features__title">FEATURES</p>
+          <p class="p-features__title2 mb-120">注目情報</p>
+          <ul class="p-features__list mb-120">
+            <li class="p-features__element">
+              <div class="p-features__shadow">
+                <img src="./assets/images/coat.jpg" class="p-features__element-image c-contents__img">
+              </div>
+              <div class="p-features__element-text c-contents__text">Portfolio Sample Web Site</div>
+            </li>
+            <li class="p-features__element">
+              <div class="p-features__shadow">
+                <img src="./assets/images/style.jpg" class="p-features__element-image c-contents__img">
+              </div>
+              <div class="p-features__element-text c-contents__text">Portfolio Sample Web Site</div>
+            </li>
+            <li class="p-features__element">
+              <div class="p-features__shadow">
+                <img src="./assets/images/hoodie.jpg" class="p-features__element-image c-contents__img">
+              </div>
+              <div class="p-features__element-text c-contents__text">Portfolio Sample Web Site</div>
+            </li>
+            <li class="p-features__element">
+              <div class="p-features__shadow">
+                <img src="./assets/images/denimpants.jpg" class="p-features__element-image c-contents__img">
+              </div>
+              <div class="p-features__element-text c-contents__text">Portfolio Sample Web Site</div>
+            </li>
+            <li class="p-features__element">
+              <div class="p-features__shadow">
+                <img src="./assets/images/denimjacket.jpg" class="p-features__element-image c-contents__img">
+              </div>
+              <div class="p-features__element-text c-contents__text">Portfolio Sample Web Site</div>
+            </li>
+            <li class="p-features__element">
+              <div class="p-features__shadow">
+                <img src="./assets/images/sweater.jpg" class="p-features__element-image c-contents__img">
+              </div>
+              <div class="p-features__element-text c-contents__text">Portfolio Sample Web Site</div>
+            </li>
+          </ul>
+          <div class="p-features__btn">
+            <a class="c-button" href="#">VIEW ALL</a>
+          </div>
+        </div>
+      </div>
+
+<!-- 一番メインとなる要素の補足のようなもの -->
+      <div class="p-news pt-120">
+        <p class="p-news__title">NEWS</p>
+        <p class="p-news__title2 mb-120">新着情報</p>
+        <ul class="p-news__list mb-120">
+          <li class="p-news__element">
+            <img src="./assets/images/style.jpg" class="p-news__element-image">
+            <div class="p-news__element-text"><a href="#" class="p-news__anchor">2022/04/04</a></div>
+            <div class="p-news__element-text"><a href="#" class="p-news__anchor">Portfolio Sample Web Site</a></div>
+          </li>
+          <li class="p-news__element">
+            <img src="./assets/images/hoodie.jpg" class="p-news__element-image">
+            <div class="p-news__element-text"><a href="#" class="p-news__anchor">2022/03/31</a></div>
+            <div class="p-news__element-text"><a href="#" class="p-news__anchor">Portfolio Sample Web Site</a></div>
+          </li>
+          <li class="p-news__element">
+            <img src="./assets/images/sweater.jpg" class="p-news__element-image">
+            <div class="p-news__element-text"><a href="#" class="p-news__anchor">2021/12/06</a></div>
+            <div class="p-news__element-text"><a href="#" class="p-news__anchor">Portfolio Sample Web Site</a></div>
+          </li>
+        </ul>
+        <div class="p-news__btn mb-120">
+          	<a class="c-button" href="#">VIEW ALL</a>
+        </div>
+      </div>
+
+<!-- インスタグラムでの掲載イメージ 一段階background-colorが濃くなる -->
+      <div class="p-instagram pb-120 pt-120">
+        <div class="p-instagram__container">
+          <div class="p-instagram__wrap">
+            <div class="p-instagram__icon"><img src="./assets/images/instagram2.png"></div>
+            <div class="p-instagram__title mb-120">Instagram</div>
+          </div>
+          <ul class="p-instagram__list mb-120">
+            <li class="p-instagram__images"><img src="./assets/images/coat.jpg"></li>
+            <li class="p-instagram__images"><img src="./assets/images/style2.jpg"></li>
+            <li class="p-instagram__images"><img src="./assets/images/denimjacket.jpg"></li>
+            <li class="p-instagram__images"><img src="./assets/images/denimpants.jpg"></li>
+            <li class="p-instagram__images"><img src="./assets/images/hoodie.jpg"></li>
+            <li class="p-instagram__images"><img src="./assets/images/lookbook.jpg"></li>
+            <li class="p-instagram__images"><img src="./assets/images/shirts.jpg"></li>
+            <li class="p-instagram__images"><img src="./assets/images/style.jpg"></li>
+            <li class="p-instagram__images"><img src="./assets/images/sweater.jpg"></li>
+          </ul>
+          <div class="p-instagram__btn mb-120">
+            <a class="c-button" href="#">LOAD MORE</a>
+          </div>
+        </div>
+      </div>
+      
+<!-- footer前にあるスライドで切り替わる少し小さめなimage要素 さらに一段階background-colorが濃くなる -->
+      <div class="p-sub pb-120 pt-50">
+        <div class="p-sub__container">
+          <ul class="c-slide">
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/style2.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/style.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/denimjacket.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/denimpants.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/hoodie.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/lookbook.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/shirts.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/sweater.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/denimjacket.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/hoodie.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/style2.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+            <li class="c-slide__list">
+              <div class="c-contents__image">
+                <img src="./assets/images/lookbook.jpg" alt="">
+              </div>
+              <div class="c-contents__text"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+<!-- 普通のfooter要素 -->
+      <footer class="l-footer">
+
+        <ul class="l-footer__menu">
+          <li class="l-footer__list">
+            <a href="#" class="l-footer__anchor">TOP</a>
+          </li>
+          <li class="l-footer__list">
+            <a href="#" class="l-footer__anchor">FEATURES</a>
+          </li>
+          <li class="l-footer__list">
+            <a href="#" class="l-footer__anchor">CONTACT US</a>
+          </li>
+          <li class="l-footer__list">
+            <a href="#" class="l-footer__anchor">NEWS</a>
+          </li>
+          <li class="l-footer__list">
+            <a href="#" class="l-footer__anchor">ONLINE SHOP</a>
+          </li>
+        </ul>
+
+        <div class="l-footer__summary">
+          <div class="c-sns">
+            <div class="c-sns__icon">
+              <div class="c-sns__facebook">
+                <img src="./assets/images/facebook.png">
+              </div>
+              <div class="c-sns__instagram">
+                <img src="./assets/images/instagram.png">
+              </div>
+              <div class="c-sns__youtube">
+                <img src="./assets/images/youtube.png">
+              </div>
+            </div>
+          </div>
+          <div class="l-footer__copyright">
+            <small>
+              ©️ 2021 - 2022 Portfolio Japan CO.,LTD.
+            </small>
+          </div>
+        </div>
+
+      </footer>
+
+    </div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./assets/js/slick.js"></script>
+  <script type="text/javascript" src="./assets/js/main.js"></script>
+</body>
+</html>

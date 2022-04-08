@@ -873,6 +873,208 @@ img {
   transition-delay: 500ms;
 }
 
+.c-button::after {
+  content: ">";
+  color: #FFF;
+  display: inline-block;
+  position: absolute;
+  font-size: 16px;
+  top: 16px;
+  right: 30px;
+  transition: right 0.5s;
+  opacity: 0;
+}
+
+.p-instagram__btn .c-button::after {
+  transform:rotate(90deg);
+  top: 6px;
+  right: 20px;
+  transition: top 0.5s;
+  opacity: 0;
+}
+
+.p-instagram__btn .c-button:hover::after {
+  top: 16px;
+  opacity: 1;
+}
+
+.c-button {
+  position: relative;
+}
+
+.c-button:hover::after {
+  right: 20px;
+  opacity: 1;
+}
+
+.l-footer__copyright {
+  font-size: 13px;
+}
+
+.l-footer__copyright::before {
+  content: "\0a9";
+  color: #FFF;
+  display: inline-block;
+}
+@media screen and (min-width: 960px) {
+
+  .p-dropdown {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  .c-button::after {
+    opacity: 1;
+    top: calc(16px * 1.3);
+  }
+
+  .p-instagram__btn .c-button::after {
+    opacity: 1;
+    transform:rotate(90deg); 
+    top: calc(16px * 1.3);
+  }
+
+  .p-dropdown {
+    position: absolute;
+    width: 100%;
+    background-color: #FFF;
+    text-align: center;
+    top: 60px;
+    left: -1000px;
+    transition: left 0.4s;
+    z-index: 3;
+  }
+  
+  .p-dropdown__list {
+    width: 100%;
+    font-size: 13px;
+    padding: 23.5px 0px;
+    border-top: 1.5px solid #c0c0c0;
+    z-index: 3;
+    position: relative;
+  }
+  
+  .p-dropdown__list:last-child {
+    border-bottom: 1.5px solid #c0c0c0;
+  }
+  
+  .p-dropdown__list:first-child {
+    border-top: none;
+  }
+  
+  .inview.p-dropdown {
+    top: 60px;
+    left: 0;
+  }
+
+  .p-news {
+    overflow-x: scroll;
+  }
+
+  .p-news__title {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  .p-news__title2 {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  .p-news__btn {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  .p-dropdown__anchor {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .c-button::after {
+    opacity: 1;
+    top: calc(16px * 1.3);
+  }
+
+  .p-instagram__btn .c-button::after {
+    opacity: 1;
+    transform:rotate(90deg);
+    top: calc(16px * 1.3);
+  }
+  
+  .p-dropdown {
+    position: absolute;
+    width: 100%;
+    background-color: #FFF;
+    text-align: center;
+    top: 60px;
+    left: -600px;
+    transition: left 0.4s;
+    z-index: 3;
+  }
+  
+  .p-dropdown__list {
+    width: 100%;
+    font-size: 13px;
+    padding: 23.5px 0px;
+    border-top: 1.5px solid #c0c0c0;
+    z-index: 3;
+    position: relative;
+  }
+  
+  .p-dropdown__list:last-child {
+    border-bottom: 1.5px solid #c0c0c0;
+  }
+  
+  .p-dropdown__list:first-child {
+    border-top: none;
+  }
+  
+  .inview.p-dropdown {
+    top: 60px;
+    left: 0;
+  }
+
+  .p-news {
+    overflow-x: scroll;
+  }
+
+  .p-news__title {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  .p-news__title2 {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  .p-news__btn {
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+
+  .p-dropdown__anchor {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+}
+
 
 
 

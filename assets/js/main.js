@@ -109,4 +109,5 @@ $('.c-slide').slick({
 
   $('#btn').on('click', function(){
     $('.l-sp__header-menu').toggleClass('menu-open');
+    $('.p-dropdown').toggleClass('inview');
   });

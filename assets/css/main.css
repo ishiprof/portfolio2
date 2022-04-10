@@ -921,6 +921,39 @@ img {
   .p-dropdown {
     display: none;
   }
+  
+  .next-arrow {
+    position: absolute;
+    right: 20px;
+    top: 180px;
+  }
+  
+  .prev-arrow {
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    top: 180px;
+  }
+  
+  .c-slide__arrow {
+    padding: 11px 15px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+  }
+
+  .p-sub .next-arrow {
+    position: absolute;
+    right: 20px;
+    top: 105px;
+  }
+  
+  .p-sub .prev-arrow {
+    position: absolute;
+    z-index: 1;
+    left: 20px;
+    top: 105px;
+  }
 }
 
 @media screen and (max-width: 959px) {
@@ -1075,6 +1108,26 @@ img {
   }
 }
 
+.c-contents__text {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.p-features__title2 {
+  margin-top: 10px;
+}
+
+.p-news__title2 {
+  margin-top: 10px;
+}
+
+.p-instagram__title2 {
+  margin-top: 10px;
+}
+
+.c-sns__icon {
+  justify-content: space-between;
+}
 
 
 

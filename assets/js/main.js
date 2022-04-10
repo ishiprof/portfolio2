@@ -63,6 +63,9 @@ $('.c-slide').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   centerMode: true,
+  arrows: true,
+  prevArrow: '<div class="c-slide__arrow prev-arrow"><</div>',
+  nextArrow: '<div class="c-slide__arrow next-arrow">></div>',
   variableWidth: true,
     responsive: [
       {
@@ -70,6 +73,7 @@ $('.c-slide').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
       }
     },
     {
@@ -77,6 +81,7 @@ $('.c-slide').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
       }
     }
   ]

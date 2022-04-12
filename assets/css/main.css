@@ -1001,7 +1001,8 @@ img {
     left: 0;
   }
 
-  .p-news {
+  .p-news__list {
+    padding-bottom: 30px;
     overflow-x: scroll;
   }
 
@@ -1077,7 +1078,8 @@ img {
     left: 0;
   }
 
-  .p-news {
+  .p-news__list {
+    padding-bottom: 30px;
     overflow-x: scroll;
   }
 
@@ -1127,6 +1129,12 @@ img {
 
 .c-sns__icon {
   justify-content: space-between;
+}
+
+.p-news__element-text {
+  margin-top: 7px;
+  float: left;
+  margin-bottom: 5px;
 }
 
 
